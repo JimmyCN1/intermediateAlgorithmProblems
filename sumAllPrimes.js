@@ -14,7 +14,6 @@ function sumPrimes(num) {
     );
   }
   let sumOfPrimes = filteredNumberSet.reduce((sum, prime) => sum + prime);
-  console.log(sumOfPrimes);
   return sumOfPrimes;
 }
 
