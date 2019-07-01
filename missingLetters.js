@@ -17,8 +17,8 @@ function fearNotLetter(str) {
     : String.fromCharCode(sumInRange - sumInStr);
 }
 
-// fearNotLetter("abce"); // should return "d"
-// fearNotLetter("abcdefghjklmno"); // should return "i"
-// fearNotLetter("stvwx"); // should return "u"
-// fearNotLetter("bcdf"); // should return "e"
+fearNotLetter("abce"); // should return "d"
+fearNotLetter("abcdefghjklmno"); // should return "i"
+fearNotLetter("stvwx"); // should return "u"
+fearNotLetter("bcdf"); // should return "e"
 fearNotLetter("abcdefghijklmnopqrstuvwxyz"); // should return undefined
